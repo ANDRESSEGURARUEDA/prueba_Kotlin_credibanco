@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PruebaKotlinCredibanco</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Prueba CredibanCo</string>
+    <string name="nav_header_subtitle">https://github.com/ANDRESSEGURARUEDA</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Authorization</string>
+    <string name="menu_gallery">Annulmemnt</string>
+    <string name="menu_slideshow">Your Transactions</string>
+    <string name="titleAuthorization">Authorization</string>
+    <string name="hint_id">Id</string>
+    <string name="helper_required">required</string>
+    <string name="hint_commerceCode">CommerceCode</string>
+    <string name="hint_terminalCode">TerminalCode</string>
+    <string name="hint_amount">Amount</string>
+    <string name="hint_card">Card</string>
+    <string name="titleAnnulment">Annulment</string>
+    <string name="hint_search">Search</string>
+    <string name="titleSearchAll">Your transactions</string>
+    <string name="Annulment">Annulmet</string>
+    <string name="menu_authorization">Authorization</string>
+    <string name="menu_Consult">Consult transactions</string>
+</resources>
