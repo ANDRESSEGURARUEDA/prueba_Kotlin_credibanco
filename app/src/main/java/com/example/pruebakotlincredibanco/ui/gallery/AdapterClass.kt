@@ -7,9 +7,10 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pruebakotlincredibanco.R
 import com.example.pruebakotlincredibanco.domain.model.TransactionDomain
+import javax.inject.Inject
 
 
-class AdapterClass(private var transactionList: List<TransactionDomain>) : RecyclerView.Adapter<AdapterClass.ViewHolderClass>() {
+class AdapterClass @Inject constructor(private var transactionList: List<TransactionDomain>) : RecyclerView.Adapter<AdapterClass.ViewHolderClass>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolderClass {

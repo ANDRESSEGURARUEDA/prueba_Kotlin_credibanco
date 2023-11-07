@@ -7,9 +7,10 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pruebakotlincredibanco.R
 import com.example.pruebakotlincredibanco.data.database.entity.TransactionsEntity
+import javax.inject.Inject
 
 
-class AdapterSearch(private var transactionList: List<TransactionsEntity>) : RecyclerView.Adapter<AdapterSearch.ViewHolderClass>() {
+class AdapterSearch @Inject constructor(private var transactionList: List<TransactionsEntity>) : RecyclerView.Adapter<AdapterSearch.ViewHolderClass>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolderClass {
